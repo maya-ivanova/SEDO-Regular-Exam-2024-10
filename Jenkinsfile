@@ -1,3 +1,7 @@
+properties([
+    pipelineTriggers([[$class: 'GitHubPushTrigger']])
+])
+
 node {
         stage('Define env variables'){
         env.GIT_BRANCH = 'refs/heads/feature-ci-pipeline' 
