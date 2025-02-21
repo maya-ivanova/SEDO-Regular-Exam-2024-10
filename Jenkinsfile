@@ -40,5 +40,6 @@ node {
 
         stage('Add final line') {
             echo "jENKINS, ARE YOU HERE???"
+            echo "jENKINS, where ARE YOU???"
         }
 }
