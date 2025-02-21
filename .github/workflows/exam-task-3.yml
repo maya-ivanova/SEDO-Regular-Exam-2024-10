@@ -23,7 +23,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Run Unit tests when push to the Develop branch
       if: github.ref == 'refs/heads/develop'
-      run: dotnet test .\HouseRentingSystem.UnitTests.csproj --no-build --verbosity normal
+      run: dotnet test HouseRentingSystem.UnitTests/HouseRentingSystem.UnitTests.csproj --no-build --verbosity normal
     - name: Run Integration tests when push to the Staging branch
       if: github.ref == 'refs/heads/staging'
-      run: dotnet test .\HouseRentingSystem.Tests.csproj --no-build --verbosity normal
+      run: dotnet test HouseRentingSystem.Tests/HouseRentingSystem.Tests.csproj --no-build --verbosity normal
