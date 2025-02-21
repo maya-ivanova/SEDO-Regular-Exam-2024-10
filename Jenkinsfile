@@ -1,5 +1,5 @@
 node {
-    // Print the detected branch name
+    // Print the detected branch name here
     echo "Running on branch: ${env.GIT_BRANCH}"
 
     // Handle branch name detection issues
