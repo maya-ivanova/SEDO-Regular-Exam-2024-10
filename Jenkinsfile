@@ -27,13 +27,3 @@ node {
         }
     }
 }
-
-post {
-    success {
-        echo 'Build and tests succeeded!'
-        }
-    failure {
-        echo 'Build and tests failed!'
-        }
-}
-
