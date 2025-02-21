@@ -31,4 +31,8 @@ node {
             echo Tests completed!
             """
         }
+
+        stage('Add final line') {
+            echo "Shall Webhook finally trigger that lazy Jenkins?"
+        }
 }
