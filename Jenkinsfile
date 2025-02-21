@@ -10,6 +10,12 @@ node {
         env.PATH_TO_INTEGRATION_TESTS = "C:\\Users\\jenkins\\Documents\\SEDO-Regular-Exam-2024-10\\HouseRentingSystem.Tests\\HouseRentingSystem.Tests.csproj"
         }
 
+        stage('Check for Git Changes') {
+            checkout scm
+            bat 'git fetch origin'
+            bat 'git reset --hard origin/feature-ci-pipeline'
+        }
+
         stage('Clean Working Space') {
             cleanWs()
         }
