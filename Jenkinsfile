@@ -14,6 +14,7 @@ node {
         }
 
         stage('Add final line') {
-            echo "These were to check the env vars syntax on branch %GIT_BRANCH%"
+            echo "Done!"
         }
+
 }
