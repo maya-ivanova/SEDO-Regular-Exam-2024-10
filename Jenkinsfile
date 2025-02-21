@@ -1,6 +1,10 @@
+properties([
+    pipelineTriggers([[$class: 'GitHubPushTrigger']])
+])
+
 node {
         stage('Define env variables'){
-        env.GIT_BRANCH == 'origin/feature-ci-pipeline' 
+        env.GIT_BRANCH = 'origin/feature-ci-pipeline' 
         env.PATH_TO_PROJECT_FILE = "C:\\Users\\jenkins\\Documents\\SEDO-Regular-Exam-2024-10\\HouseRentingSystem.sln"
         env.PATH_TO_UNIT_TESTS = "C:\\Users\\jenkins\\Documents\\SEDO-Regular-Exam-2024-10\\HouseRentingSystem.UnitTests\\HouseRentingSystem.UnitTests.csproj"
         env.PATH_TO_INTEGRATION_TESTS = "C:\\Users\\jenkins\\Documents\\SEDO-Regular-Exam-2024-10\\HouseRentingSystem.Tests\\HouseRentingSystem.Tests.csproj"
