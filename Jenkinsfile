@@ -19,10 +19,6 @@ node {
             echo "Package restore done!"
         }
 
-        stage('Add final line') {
-            echo "Shall Webhook finally trigger that lazy Jenkins on push?"
-        }
-
         stage('Run Both Integration and Unit Tests') {
             bat """
             dotnet test \"%PATH_TO_UNIT_TESTS%\" --configuration Release
