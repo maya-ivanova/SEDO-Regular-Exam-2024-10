@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HouseRentingSystem.Web.ca38nh6heg.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XEJdO6vhN13LWUlDyyVICB8qia27j6O\u002B8LVEEqEygbg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XEJdO6vhN13LWUlDyyVICB8qia27j6O\u002B8LVEEqEygbg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 12:48:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XEJdO6vhN13LWUlDyyVICB8qia27j6O\u002B8LVEEqEygbg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 14:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HouseRentingSystem.Web/HouseRentingSystem.Web.ca38nh6heg.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HouseRentingSystem.Web.ca38nh6heg.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ca38nh6heg"},{"Name":"integrity","Value":"sha256-XEJdO6vhN13LWUlDyyVICB8qia27j6O\u002B8LVEEqEygbg="},{"Name":"label","Value":"_content/HouseRentingSystem.Web/HouseRentingSystem.Web.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XEJdO6vhN13LWUlDyyVICB8qia27j6O\u002B8LVEEqEygbg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 12:48:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2295"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XEJdO6vhN13LWUlDyyVICB8qia27j6O\u002B8LVEEqEygbg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 14:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HouseRentingSystem.Web/js/site.bnkqy1y0r8.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
